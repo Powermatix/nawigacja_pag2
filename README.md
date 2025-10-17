@@ -20,6 +20,7 @@ A Python implementation of street navigation using Dijkstra's and A* pathfinding
 ├── navigation.py     # Navigator API
 ├── test_navigation.py # Unit tests
 ├── example.py        # Usage examples
+├── demo.py           # Interactive demo with visual network map
 └── README.md         # This file
 ```
 
@@ -74,6 +75,14 @@ for direction in directions:
 
 ```bash
 python example.py
+```
+
+### Running the Demo
+
+For a visual demonstration with a network map:
+
+```bash
+python demo.py
 ```
 
 ## Running Tests
